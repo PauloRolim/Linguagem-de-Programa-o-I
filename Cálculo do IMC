@@ -1,0 +1,22 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    float peso = 0;
+    float altura = 0;
+    float IMC = 0;
+
+    cout << "Informe seu peso em KG: " << endl;
+    cin >> peso;
+    cout << "Informe sua altura: " << endl;
+    cin >> altura;
+
+    IMC = peso / (altura * altura);
+
+    cout << "Seu Índice de Massa Corporal é: ";
+    cout << IMC;
+
+    return 0;
+}
